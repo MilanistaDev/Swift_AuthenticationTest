@@ -13,6 +13,7 @@
 		FDCB81931AA0BDE90004DBB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCB81921AA0BDE90004DBB4 /* Images.xcassets */; };
 		FDCB81961AA0BDE90004DBB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCB81941AA0BDE90004DBB4 /* LaunchScreen.xib */; };
 		FDCB81A21AA0BDE90004DBB4 /* Swift_AuthenticationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB81A11AA0BDE90004DBB4 /* Swift_AuthenticationTestTests.swift */; };
+		FDCB81AC1AA0BE2D0004DBB4 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCB81AB1AA0BE2D0004DBB4 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FDCB819B1AA0BDE90004DBB4 /* Swift_AuthenticationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_AuthenticationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCB81A01AA0BDE90004DBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCB81A11AA0BDE90004DBB4 /* Swift_AuthenticationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AuthenticationTestTests.swift; sourceTree = "<group>"; };
+		FDCB81AB1AA0BE2D0004DBB4 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCB81AC1AA0BE2D0004DBB4 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		FDCB817D1AA0BDE80004DBB4 = {
 			isa = PBXGroup;
 			children = (
+				FDCB81AB1AA0BE2D0004DBB4 /* LocalAuthentication.framework */,
 				FDCB81881AA0BDE90004DBB4 /* Swift_AuthenticationTest */,
 				FDCB819E1AA0BDE90004DBB4 /* Swift_AuthenticationTestTests */,
 				FDCB81871AA0BDE90004DBB4 /* Products */,
@@ -343,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift_AuthenticationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift_AuthenticationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
