@@ -122,6 +122,7 @@ class ViewController: UIViewController {
             
             pass = textField
             textField.placeholder = "Your password"
+            textField.secureTextEntry = true
             
         })
         
