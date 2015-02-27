@@ -102,7 +102,7 @@ class ViewController: UIViewController {
         })
         
         // Cancel 部分実装
-        let cancelAction = UIAlertAction(title: "Login", style: .Cancel,
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel,
             handler: nil)
         
         // コントローラにアクションを追加
